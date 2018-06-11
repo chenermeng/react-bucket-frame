@@ -1,0 +1,22 @@
+{
+  "name": "react-bucket-frame",
+  "version": "1.0.0",
+  "description": "react bucket frame",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chenermeng/react-bucket-frame.git"
+  },
+  "keywords": [
+    "react"
+  ],
+  "author": "chenmeng",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/chenermeng/react-bucket-frame/issues"
+  },
+  "homepage": "https://github.com/chenermeng/react-bucket-frame#readme"
+}
