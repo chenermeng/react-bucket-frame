@@ -5,5 +5,17 @@ module.exports = {
     output: {
         path: path.join(__dirname, 'dist/'),
         filename: 'bundle.js'
+    },
+    devServer: {
+        contentBase: path.join(__dirname, './dist')
+    },
+    module: {
+        rules: [
+            {
+                test: /\.js|\.jsx$/,
+                use: ['babel-loader?cacheDirectory=true'],
+                include: path.join(__dirname, 'src')
+            }
+        ]
     }
 };
